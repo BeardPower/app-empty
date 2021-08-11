@@ -1,4 +1,4 @@
 $(eval $(call addlib,appempty))
 
 APPEMPTY_SRCS-y += $(APPEMPTY_BASE)/main.c
-APPEMPTY_OBJS-y += $(APPEMPTY_BASE)/test.o
+APPEMPTY_OBJS-y += $(APPEMPTY_BASE)/mylib.a
